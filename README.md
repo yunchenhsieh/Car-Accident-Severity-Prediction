@@ -20,5 +20,5 @@ The dataset is composed of 500K instances, each comprising car severity alongsid
 - Vector Assembler:  aggregate multiple columns into a single feature vector  
 - Model:  
 i. Logistc Regression(AUC: 0.69)  
-ii. Random Forest(AUC: 0.73)
+ii. Random Forest(AUC: 0.73)  
 iii. SVM Model(AUC: 0.69)  
