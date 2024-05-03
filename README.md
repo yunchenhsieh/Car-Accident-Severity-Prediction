@@ -14,11 +14,11 @@ The dataset is composed of 500K instances, each comprising car severity alongsid
 5. Oversample the data: Make data balanced
 
 # ML pipeline:
--StringIndexer: convert categorical string columns into numerical indices.
--One Hot Encoder: convert categorical variables into a binary vector representation
--Normalizer: Z-score normalization
--Vector Assembler:  aggregate multiple columns into a single feature vector
--Model:
-1. Logistc Regression(AUC: 0.69)
-2. Random Forest(AUC: 0.73)
-3. SVM Model(AUC: 0.69)
+1.StringIndexer: convert categorical string columns into numerical indices.
+2.One Hot Encoder: convert categorical variables into a binary vector representation
+3.Normalizer: Z-score normalization
+4.Vector Assembler:  aggregate multiple columns into a single feature vector
+5.Model:
+  i. Logistc Regression(AUC: 0.69)
+  ii. Random Forest(AUC: 0.73)
+  iii. SVM Model(AUC: 0.69)
